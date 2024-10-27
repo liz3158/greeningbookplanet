@@ -1,0 +1,32 @@
+.h5style{
+    background-color: #EBECF1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .question{
+    border: 3px solid green;
+    width: 100%;
+  }
+
+  tr:hover {background-color: rgb(238, 241, 239);} 
+
+.space{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.space2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pstyle{
+  color: green;
+}

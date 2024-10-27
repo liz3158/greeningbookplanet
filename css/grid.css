@@ -1,0 +1,55 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.item{
+    display: flex;
+    padding: 20px;
+    border:1px solid gray;
+    border-radius: 5px;;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height:200px
+}
+.item:hover{
+    background-color: chartreuse;
+}
+.bigtext{
+    color:red;
+}
+@media only screen and (max-width: 500px){
+    body{
+        /* background-color:black; */
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    .bigtext{
+        /*display: none;*/
+        color:blue;
+    }
+}
+.one{
+    background-color: rgb(196, 17, 17);
+}
+.two{
+    background-color: rgb(45, 206, 112);
+}
+.three{
+    background-color: rgb(80, 42, 218);
+}
+.four{
+    background-color: rgb(58, 20, 60);
+}
+.five{
+    background-color: rgb(36, 171, 189);
+}
+.six{
+    background-color: rgb(129, 77, 232);
+}
+.seven{
+    background-color: rgb(221, 84, 175);
+}

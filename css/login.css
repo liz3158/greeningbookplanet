@@ -1,0 +1,149 @@
+body {
+	background: #159c6f;
+	;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	max-width: 300px;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 16px;
+	padding: 10px;
+	
+}
+
+button {
+	width: 95%;
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   max-width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+.success{
+	background: #E0F8E0;
+	color: #088A08;
+	padding: 10px;
+   	max-width: 95%;
+   	border-radius: 5px;
+   	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	margin-left: 45%;
+	font-size: 14px;
+}
+
+a:hover{
+	opacity: .7;
+}
+
+.create{
+	width: 95%;
+	text-align: center;
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+.login{
+	width: 95%;
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+.select {
+	display:flex;
+	flex-direction: column;
+	margin-left:2.5%;
+	position:relative;
+	width: 95%;
+	height:40px;
+  }
+  
+  .option {
+	padding:0 30px 0 10px;
+	min-height:40px;
+	display:flex;
+	align-items:center;
+	background:#333;
+	border-top:#222 solid 1px;
+	position:absolute;
+	top:0;
+	width: 100%;
+	pointer-events:none;
+	order:2;
+	z-index:1;
+	transition:background .4s ease-in-out;
+	box-sizing:border-box;
+	overflow:hidden;
+	white-space:nowrap;
+	
+  }
+  
+  .option:hover {
+	background:#666;
+  }
+  
+  .select:focus .option {
+	position:relative;
+	pointer-events:all;
+  }

@@ -1,0 +1,105 @@
+.p1{
+    font-size: 50px;
+    font-style: normal;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* Container holding the image and the text */
+.overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered a{
+    font-size: large;
+}
+
+
+/* step 1-6 table */
+.tableall{
+  border-collapse: separate;
+  border-spacing: 35px;
+  background-color: #E8E1D9;
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px grey;
+  position:relative
+
+}
+
+.stepcolor{
+  background-color: #DDF796;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.startbutton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.table2{
+  border-collapse: separate;
+  border-spacing: 15px;
+
+}
+
+.c1{
+  background-color: aliceblue;
+}
+
+.h5style{
+  background-color: #EBECF1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.question{
+  border: 3px solid green;
+  width: 100%;
+}
+
+tr:hover {background-color: rgb(238, 241, 239);} 
+
+.space{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.space2{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pstyle{
+color: rgb(30, 32, 30);
+}
